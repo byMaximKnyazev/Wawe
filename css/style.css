@@ -332,3 +332,33 @@ body {
 .get__content-text:not(:last-child) {
 	margin-bottom: 30px;
 }
+
+/* Summit */
+.summit {
+	background-image: url('../images/summit/summit-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position-x: right;
+}
+
+.summit__inner {
+	margin-right: auto;
+	padding: 200px 0 100px;
+}
+
+.summit__title {
+	margin-bottom: 70px;
+}
+
+.summit__text {
+	max-width: 507px;
+	color: #242121;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 128.571%;
+	letter-spacing: 0.6px;
+}
+
+.summit__text:not(:last-child) {
+	margin-bottom: 30px;
+}

@@ -76,6 +76,34 @@ body {
 	display: flex;
 }
 
+.title {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	padding-right: 48px;
+	padding-bottom: 40px;
+	color: #01353E;
+	font-family: 'Raleway', sans-serif;
+	font-size: 48px;
+	font-weight: 600;
+	letter-spacing: 0.6px;
+	text-transform: uppercase;
+}
+
+.title::after {
+	content: "/";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: #00B2A0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.6px;
+}
+
 /* ------------------------------ */
 
 /* Header */
@@ -138,4 +166,33 @@ body {
 
 .header__content-icon {
 	margin-bottom: 92px;
+}
+
+/* About */
+.about {
+	padding: 189px 0 200px;
+}
+
+.about__heading {
+	margin-bottom: 64px;
+	text-align: center;
+}
+
+.about__inner {
+	justify-content: space-between;
+}
+
+.about__left,
+.about__right {
+	max-width: 480px;
+	color: #242121;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 128.571%;
+	letter-spacing: 0.6px;
+}
+
+.about__text {
+	margin-bottom: 30px;
+	min-height: 87px;
 }

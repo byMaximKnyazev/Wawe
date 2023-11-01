@@ -196,3 +196,139 @@ body {
 	margin-bottom: 30px;
 	min-height: 87px;
 }
+
+/* Get */
+.get {
+	padding: 200px 0;
+	background-color: #F8F8F8;
+}
+
+.get__heading {
+	margin-bottom: 72px;
+	text-align: center;
+}
+
+.get__items {
+	margin-bottom: 100px;
+	justify-content: space-between;
+}
+
+.get__item {
+	max-width: 350px;
+}
+
+.get__item-top {
+	margin-bottom: 10px;
+	align-items: center;
+}
+
+.get__item-img {
+	margin-left: auto;
+}
+
+.get__item-title {
+	margin-left: 10px;
+	max-width: 155px;
+	color: #242121;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 116.667%;
+	letter-spacing: 0.6px;
+}
+
+.get__item-text {
+	color: #242121;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 128.571%;
+	letter-spacing: 0.6px;
+}
+
+.get__inner {
+	justify-content: space-between;
+}
+
+.get__info {
+	flex: 0 0 auto;
+	width: 346px;
+}
+
+.get__content {
+	max-width: 50%;
+}
+
+.get__info-item {
+	padding-bottom: 18px;
+	color: #242121;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 128.571%;
+	letter-spacing: 0.6px;
+}
+
+.get__info-procent {
+	position: relative;
+	display: block;
+	color: #242121;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 75%;
+	letter-spacing: 0.6px;
+}
+
+.get__info-procent--first {
+	padding-left: 210px;
+}
+
+.get__info-procent--first::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 200px;
+	height: 15px;
+	background-image: url('../images/get/wawe1.svg');
+}
+
+.get__info-procent--second {
+	padding-left: 257px;
+}
+
+.get__info-procent--second::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 247px;
+	height: 15px;
+	background-image: url('../images/get/wawe2.svg');
+}
+
+.get__info-procent--last {
+	padding-left: 303px;
+}
+
+.get__info-procent--last::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 293px;
+	height: 15px;
+	background-image: url('../images/get/wawe3.svg');
+}
+
+.get__content {
+	color: #242121;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 128.571%;
+	letter-spacing: 0.6px;
+}
+
+.get__content-text:not(:last-child) {
+	margin-bottom: 30px;
+}
